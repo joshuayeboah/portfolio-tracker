@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Portfolio = require('./models/portfolio');
+const Portfolio = require('./models/Portfolio');
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
